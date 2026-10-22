@@ -5,8 +5,8 @@ function App(){
   return (
     <div>
 
-      <h1>hello world</h1>
-      <p></p>
+      <h1>What to feed a hungry bird</h1>
+      <p>To help nature lovers find a bird's diet.</p>
     </div>
     
   )
