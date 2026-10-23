@@ -1,6 +1,8 @@
 
 import useFetchData from './useFetchData.js'
 import RecordCard from './RecordCard.jsx'
+import Hero from './Hero.jsx'
+import './index.css'
 
 
 function App(){
@@ -13,8 +15,9 @@ function App(){
 
   return (
     <div className="container">
-      <h1>What to feed a hungry bird</h1>
-      <p>To help nature lovers find a bird's diet.</p>
+      <Hero/>
+      <h1 className = "h1">What to feed a hungry bird</h1>
+      <p><strong>To help nature lovers find a bird's diet.</strong></p>
       <p>{error}</p>
       {records.map((record) =><RecordCard key={record.id} record={record}/>)}
     </div>
