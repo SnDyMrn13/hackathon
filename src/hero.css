@@ -1,0 +1,9 @@
+
+/*hero.css - the hero image at the top of the page */
+
+.hero {
+   margin-bottom: 1rem;
+   position: relative;
+   border-radius: 25px;
+}
+
