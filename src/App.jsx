@@ -38,7 +38,7 @@ const showAll = () => {
       <button onClick={search}>Search</button>
       {shown.map((record) => <RecordCard key={record.id} record={record} />)}
 
-      <button onClick={showseeds}>seeds</button>
+      <button onClick={showseeds}>seeds</button>.
       <button onClick={showAll}>All</button>
       {shown2.map((record) => <RecordCard key={record.id} record={record} />)}
 

@@ -31,7 +31,12 @@ Dataset: `birds-of-the-world`
 
  ## Team
  Accountability partner: @Anastasia-2012
+## What changed
+ Visitor input options
 
+ ## Where the data comes from
+
+ "https://student-data-api.cindino45.workers.dev/api/v1/datasets/birds-of-the-world/records?limit=20
 
 ## Links
 - Live: https://cindyhackathon.netlify.app
